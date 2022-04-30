@@ -11,7 +11,7 @@ use ZipArchive;
 
 class ResourcePackGenerator{
 
-	private string|null $packIcon;
+	private string|null $packIcon = null;
 
 	/** @var string[] ResourcePackPath => PluginResourceRelativePath */
 	private array $files = [];
